@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::Modern -internet;
+use Test::Modern qw(-internet -extended);
 use MIME::Entity;
 use LWP::UserAgent;
 use Amazon::SES;
